@@ -214,7 +214,7 @@ nav .button-collapse {
 .card .card-content p {
     font-size: 1.5rem;
     font-weight: 400;
-    margin: 0 0 10px;
+    margin: 10px 0 10px;
 }
 .card .card-content .card-title {
     font-size: 3rem;
