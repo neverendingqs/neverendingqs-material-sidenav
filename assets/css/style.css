@@ -194,6 +194,7 @@ nav .button-collapse {
     font-weight: 400;
     margin: 10px 0 10px;
 }
+
 .card .card-content .card-title {
     font-size: 3rem;
     line-height: 1.1;
@@ -215,7 +216,15 @@ nav .button-collapse {
 
 .card .card-action .btn-floating {
     margin-right: 5px;
-} 
+}
+
+.card-tag a:after {
+    content: " |"
+}
+
+.card-tag a:last-of-type:after {
+    content:''
+}
 
 .fb {background-color: #3b5998!important;} .tw {background-color: #00aced!important;} .gp{background-color:#dd4b39!important;}
 

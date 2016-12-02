@@ -8,16 +8,16 @@
                             <div class="card-header">
                                 <div class="card-title">{{title}}</div>
                                 <div class="card-meta blue-grey-text text-lighten-2">
+                                    <time class="card-date" datetime="{{date format='YYYY-MM-DD'}}">
+                                        <i class="material-icons">&#xE192;</i> 
+                                        {{date format='YYYY-MM-DD'}}
+                                    </time>
                                    <div class="card-tag"> {{!Tag}}
                                         <i class="fa fa-hashtag" aria-hidden="true"></i>
                                         {{#foreach tags}}
                                             <a href="{{url}}" title="{{name}}" class="blue-grey-text text-lighten-2">{{name}}</a>
                                         {{/foreach}}
                                     </div>
-                                    <time class="card-date" datetime="{{date format='YYYY-MM-DD'}}">
-                                        <i class="material-icons">&#xE192;</i> 
-                                        {{date format='YYYY-MM-DD'}}
-                                    </time>
                                 </div>
                             </div>
                             <div class="post-p"> {{!Content here}}
