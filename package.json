@@ -1,6 +1,6 @@
 {
   "name": "neverendingqs-material-sidenav",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Mark Tse <mark.tse@neverendingqs.com>",
   "scripts": {
     "minify": "cleancss -o assets/css/style.min.css assets/css/style.css"
