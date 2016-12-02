@@ -25,16 +25,28 @@
                             </div>
                         </div>
                         <div class="card-action">
-                            <h3><i class="material-icons">&#xE80D;</i> Share this: </h3>
-                            <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" class="btn-floating fb intent" data-width="580" height="235">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}" class="btn-floating tw intent" data-width="550" data-height="235">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://plus.google.com/share?url={{url absolute="true"}}" class="btn-floating gp intent" data-width="590" data-height="530">
-                                <i class="fa fa-google-plus" aria-hidden="true"></i>
-                            </a>
+                            <div id="disqus_thread"></div>
+                            <script>
+                                /**
+                                * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                                * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                                */
+
+                                var disqus_config = function () {
+                                    this.page.url = '{{url absolute="true"}}'; // Replace PAGE_URL with your page's canonical URL variable
+                                    this.page.identifier = 'ghost-{{id}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                                };
+
+                                (function() { // DON'T EDIT BELOW THIS LINE
+                                var d = document, s = d.createElement('script');
+
+                                s.src = '//disqus-shortname.disqus.com/embed.js';
+
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                                })();
+                            </script>
+                            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
                         </div>
                     </article>
                 </div>
