@@ -356,6 +356,9 @@ footer a:hover {
 .fa-globe:before {
   content: "\f0ac";
 }
+.fa-rss:before {
+  content: "\f09e";
+}
 .fa-twitter:before {
   content: "\f099";
 }
