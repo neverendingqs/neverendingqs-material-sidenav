@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/neverendingqs-material-sidenav.svg)](https://badge.fury.io/js/neverendingqs-material-sidenav)
+
 A fork from https://github.com/SuphanutJui/Material-Sidenav-Ghost-Theme.
 
 # Material-Sidenav-Ghost-Theme
