@@ -1,0 +1,9 @@
+language: node_js
+deploy:
+  provider: npm
+  email: mark.tse@neverendingqs.com
+  api_key:
+    secure: WYyhYOXZe5ve7UnVVQbHg3CvWGJqGDNC8Anm+zX8p2FMSgq2pzul8ahkZyGxsdQsimzYBKNKHW5PSCEkaMUYX860fB5OLNgrL/I+sq7WPoi8DSIPRoPrumRpb6V73Ky3WNABLpmu5mAXJzJf+yxsNN/YEmX7Dr5a0w85R34GJXU4LDMsH9zJlyI2ReAE5ANl4oQfKTabRLMYCSkVLwsKNv6yLHSV2QFhV5oSfZKpu4ECFy5kPt9LHUiajgAFQeJca+3+tEwVU+bkPJwriGZf9g1kkGjE9W3Uqfq8Q21AUffrFuA6YAg/x8fvb58XMAZW5UzGVNhSIcJUCS0lMz7Qya/I3yQ03ib8kYDlmj4XqmSWIjcq4TusMh3iY1ls7Q6hZT0pGwmtSFVcPkQ0G+TN4/+nac9zV4H2pdFDUUktPmvuhZMFmVLolpqq3Zccafi5ZE4jyA6WeOfULw2jPsFELC5J/pH7fmItdd+7MQRnPb+/fDFOX5KxPfR4VytH+mxdfYkmSTWxdQ7c5DaWRVHbxLd/BPOTpJOP94Q2I5/wkchTRhAdKiIVu/oi+KbrnBp3BbdPSmgbfSL7OJtAtXLQPJpyr1losCuLlgczrRMEMn11ulqs/Bb55VRszLKzUO6KTp9h5/3jAMHnL7Zz1621zO1pEGIr8ngI06ZRVsXelDw=
+  on:
+    tags: true
+    repo: neverendingqs/neverendingqs-material-sidenav
